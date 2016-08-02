@@ -2,3 +2,4 @@
 .idea/
 js/generated/**
 dist/**
+*.iml
