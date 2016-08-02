@@ -22,9 +22,9 @@ Compiling with these IDEs is easy since a Typescript support can be activated in
 1. Choose File -> Settings -> Languages & Frameworks -> Typescript
 2. Tick Enable TypeScript Compiler and choose 'use tsconfig.json' -> Apply -> OK
 
-### Option B:
+### Option B
 
-The template really can be imported into any IDE, just make sure you have installed a TypeScript Compiler - How To: 
+The template really can be imported into any IDE, just make sure you have installed a TypeScript Compiler. How To: 
 1. Install [node.js](https://nodejs.org/en/)
 2. Install TypeScript compiler from the console/terminal: npm install -g typescript  
 3. The project can be compiled using 'compile_ts.cmd'/'compile_ts.sh'.
