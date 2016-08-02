@@ -4,13 +4,13 @@ Startup Project for GameJams using Phaser, a HTML 5 media framework based on Jav
 
 ## Instructions
 
-First you should clone this repository : 
+### First you should clone this repository 
 
 1. git clone https://github.com/amplejoe/PhaserGameJamTemplate.git
 2. Optionally remove .git folder and rename the project folder to your liking.
 
 
-Option A: 
+### Option A 
 
 Use IntelliJ IDEA Ultimate/Webstorm (free fro students: [SignUp](https://www.jetbrains.com/student/). How to import the project:
 
@@ -22,7 +22,7 @@ Compiling with these IDEs is easy since a Typescript support can be activated in
 1. Choose File -> Settings -> Languages & Frameworks -> Typescript
 2. Tick Enable TypeScript Compiler and choose 'use tsconfig.json' -> Apply -> OK
 
-Option B:
+### Option B:
 
 The template really can be imported into any IDE, just make sure you have installed a TypeScript Compiler - How To: 
 1. Install [node.js](https://nodejs.org/en/)
