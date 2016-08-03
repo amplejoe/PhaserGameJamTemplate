@@ -15,5 +15,10 @@ module State
             this.bg.scale.y = Utils.getProportionalScale(this.game.height, this.game.cache.getImage('bg_menu').height);
             
         }
+
+        update()
+        {
+            
+        }
     }
 }

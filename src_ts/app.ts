@@ -40,18 +40,10 @@ module Main
             this.game.load.audio("music", Config.AUDIO_PATH+"music.mp3"); // music
             this.game.load.audio("ding", Config.SFX_PATH+"ding.mp3"); // sfx
 
-
-
         }
 
         create()
         {
-
-            // game states
-            this.game.state.add("TitleState", State.Title, true); // start with title
-            this.game.state.add("MenuState", State.Menu, false);
-            this.game.state.add("GameState", State.Game, false);
-            this.game.state.add("EndState", State.End, false);
 
             // scale according to window
             this.game.scale.scaleMode = Phaser.ScaleManager.NO_SCALE;
@@ -69,7 +61,15 @@ module Main
 
                 this.game.input.resetLocked = true; // with this input does not get reset on state change
             }
-            
+
+            // game states
+            this.game.state.add("TitleState", State.Title, true); // start with title
+            this.game.state.add("MenuState", State.Menu, false);
+            this.game.state.add("GameState", State.Game, false);
+            this.game.state.add("EndState", State.End, false);
+
+
+
         }
 
 

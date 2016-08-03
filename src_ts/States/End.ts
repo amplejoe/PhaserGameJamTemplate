@@ -13,5 +13,10 @@ module State
             this.bg.scale.x = Utils.getProportionalScale(this.game.width, this.game.cache.getImage('bg_end').width);
             this.bg.scale.y = Utils.getProportionalScale(this.game.height, this.game.cache.getImage('bg_end').height);
         }
+
+        update()
+        {
+            
+        }
     }
 }
