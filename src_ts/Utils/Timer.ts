@@ -1,5 +1,4 @@
-/// <reference path="../../phaserLib/phaser.d.ts"/>
-/// <reference path="UtilFunctions.ts"/>
+/// <reference path="../../resources/d_ts/phaser.d.ts"/>
 module Utils
 {
     export class Timer
@@ -18,7 +17,7 @@ module Utils
 
         getCurrentTimeIntSeconds(): number
         {
-            return UtilFunctions.toInt(this.game.time.elapsedSecondsSince(this.startTime));
+            return Utils.toInt(this.game.time.elapsedSecondsSince(this.startTime));
         }
 
         getCurrentTimeSeconds(): number
@@ -35,12 +34,12 @@ module Utils
         {
             var elapsedSeconds = this.getCurrentTimeIntSeconds();
 
-            var elapsedHours = UtilFunctions.toInt(elapsedSeconds / (60 * 60));
+            var elapsedHours = Utils.toInt(elapsedSeconds / (60 * 60));
             if (elapsedHours > 0)
             {
                 elapsedSeconds -= elapsedHours * 60 * 60;
             }
-            var elapsedMinutes =  UtilFunctions.toInt(elapsedSeconds / 60);
+            var elapsedMinutes =  Utils.toInt(elapsedSeconds / 60);
             if (elapsedMinutes > 0)
             {
                 elapsedSeconds -= elapsedMinutes * 60;
@@ -53,8 +52,6 @@ module Utils
 
             return retTime;
         }
-
-        //toInt(value) { return ~~value; }
 
     }
 }
