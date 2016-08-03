@@ -11,7 +11,7 @@ Startup Project for GameJams using Phaser, a HTML 5 media framework based on Jav
 
 ### Option A 
 
-Use IntelliJ IDEA Ultimate/Webstorm (free fro students: [Sign Up](https://www.jetbrains.com/student/). How to import the project:
+Use IntelliJ IDEA Ultimate/Webstorm (free fro students: [Sign Up](https://www.jetbrains.com/student/)). How to import the project:
 
 1. Open IDE, File -> New Project from Existing Sources -> choose previously cloned project folder
 2. On 'Import Project' Dialog choose 'Create project from existing sources' -> Next  x 3 -> Finish
