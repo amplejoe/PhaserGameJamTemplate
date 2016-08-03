@@ -16,7 +16,7 @@ Use IntelliJ IDEA Ultimate/Webstorm (free fro students: [Sign Up](https://www.je
 1. Open IDE, File -> New Project from Existing Sources -> choose previously cloned project folder
 2. On 'Import Project' Dialog choose 'Create project from existing sources' -> Next  x 3 -> Finish
  
-Compiling with these IDEs is easy since a Typescript support can be activated in the Settings: 
+Compiling with these IDEs is easy, since a Typescript support can be activated in the Settings: 
 
 1. Choose File -> Settings -> Languages & Frameworks -> Typescript
 2. Tick Enable TypeScript Compiler and choose 'use tsconfig.json' -> Apply -> OK
