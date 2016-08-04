@@ -4,14 +4,14 @@
 echo ################## Cleaning up... #######################
 if exist dist rd /s /q dist 
 mkdir dist
-mkdir dist\phaserLib
+mkdir dist\resources\lib\phaser
 mkdir dist\js
 echo ################## Copying files... #####################
 :: copy assts/css/needed files
 xcopy assets dist\assets\ /s /e /Y
 xcopy css dist\css\ /s /e /Y
-copy resources\lib\phaser\phaser.min.js dist\phaserLib
-copy resources\lib\phaser\phaser.map dist\phaserLib
+copy resources\lib\phaser\phaser.min.js dist\resources\lib\phaser
+copy resources\lib\phaser\phaser.map dist\resources\lib\phaser
 
 echo ################## Modifying index.html ##################
 :: modify index.html (replace js files by game.min.js) 
