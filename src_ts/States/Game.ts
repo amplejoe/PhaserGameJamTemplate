@@ -63,8 +63,8 @@ module State
         render()
         {
              this.game.debug.bodyInfo(this.character, 32, 32);    
-             var char = <Phaser.Sprite>this.frontGroup.getAt(0);  
-             if (char != null) this.game.debug.body(char);
+             var charact = <Phaser.Sprite>this.frontGroup.getAt(0);
+             if (charact != null) this.game.debug.body(charact);
         }
         
     }
