@@ -35,7 +35,7 @@ module State
             this.frontGroup.add(this.character);
 
             // start arcade physics
-            this.game.physics.startSystem(Phaser.Physics.ARCADE);
+            //this.game.physics.startSystem(Phaser.Physics.ARCADE);
             //this.game.physics.arcade.gravity.y = 200;
 
             // sound

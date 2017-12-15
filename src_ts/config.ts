@@ -11,6 +11,7 @@ module Config
 
     // options
     export const DEBUG: boolean = true;
+    export const TEST_LOADING = true; // test loading animation
     export const MAX_WIDTH: number = 1920;
     export const MAX_HEIGHT: number = 1080;
 }
